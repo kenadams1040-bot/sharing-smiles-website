@@ -3471,3 +3471,307 @@ height:auto;
     padding: 28px;
   }
 }
+
+
+/* =====================================================
+   RESPONSIVE FIXES FOR MOBILE + TABLET
+   Paste this at the VERY END of style.css
+   ===================================================== */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  header {
+    padding: 14px 4%;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  nav {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .hero h1,
+  .about-hero h1,
+  .projects-hero h1,
+  .church-hero h1,
+  .evangelism-hero h1,
+  .bible-hero h1,
+  .school-hero h1,
+  .contact-hero h1,
+  .gallery-hero h1 {
+    font-size: 3rem;
+  }
+
+  .section {
+    padding: 60px 6%;
+  }
+
+  .school-photo-grid,
+  .church-photo-grid,
+  .evangelism-photo-grid,
+  .masonry-gallery {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .school-photo-box,
+  .evangelism-photo-box,
+  .church-photo-box,
+  .gallery-item {
+    width: 100% !important;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  header {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 14px 5%;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 58px;
+  }
+
+  .logo h2 {
+    font-size: 1.2rem;
+  }
+
+  .logo p {
+    font-size: 11px;
+  }
+
+  nav {
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav a,
+  .dropdown > a {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    background: var(--cream);
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    position: static;
+    display: none;
+    width: 100%;
+    min-width: 100% !important;
+    margin-top: 6px;
+    border-radius: 10px;
+  }
+
+  .dropdown:hover .dropdown-menu,
+  .dropdown:focus-within .dropdown-menu {
+    display: block;
+  }
+
+  .hero,
+  .about-hero,
+  .projects-hero,
+  .church-hero,
+  .evangelism-hero,
+  .bible-hero,
+  .compassion-hero,
+  .school-hero,
+  .contact-hero,
+  .gallery-hero,
+  .page-header {
+    padding: 70px 6%;
+    min-height: auto;
+    text-align: center;
+  }
+
+  .hero h1,
+  .about-hero h1,
+  .projects-hero h1,
+  .church-hero h1,
+  .evangelism-hero h1,
+  .bible-hero h1,
+  .compassion-hero h1,
+  .school-hero h1,
+  .contact-hero h1,
+  .gallery-hero h1,
+  .page-header h1 {
+    font-size: 2.3rem !important;
+    line-height: 1.15;
+  }
+
+  .hero p,
+  .about-hero p,
+  .projects-hero p,
+  .church-hero p,
+  .evangelism-hero p,
+  .bible-hero p,
+  .school-hero p,
+  .contact-hero p,
+  .gallery-hero p {
+    font-size: 17px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .section {
+    padding: 45px 5%;
+  }
+
+  .section-title h2,
+  .about-text h2,
+  .founder-text h2,
+  .center-text h2,
+  .why-container h2,
+  .detail-text h2,
+  .need-content h2,
+  .leadership-text h2,
+  .evangelism-need-text h2,
+  .campaign-text h2,
+  .bible-need-text h2,
+  .school-need-text h2,
+  .contact-info-card h2 {
+    font-size: 2rem !important;
+  }
+
+  .about-ministry,
+  .founder-section,
+  .why-wrapper,
+  .project-hub-grid,
+  .detail-layout,
+  .church-need,
+  .approach-grid,
+  .church-impact,
+  .leadership-feature,
+  .evangelism-need,
+  .campaign-feature,
+  .bible-need,
+  .bible-feature,
+  .audio-bible-section,
+  .compassion-projects-grid,
+  .school-need,
+  .school-provide-grid,
+  .student-success,
+  .contact-wrapper,
+  .form-row,
+  .focus-grid,
+  .dna-grid,
+  .stats,
+  .cards,
+  .need-list-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .school-photo-grid,
+  .church-photo-grid,
+  .evangelism-photo-grid,
+  .bible-photo-grid,
+  .masonry-gallery {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px;
+  }
+
+  .school-photo-box,
+  .church-photo-box,
+  .evangelism-photo-box,
+  .bible-photo-box,
+  .gallery-item {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 260px;
+  }
+
+  .school-photo-box img,
+  .church-photo-box img,
+  .evangelism-photo-box img,
+  .bible-photo-box img,
+  .gallery-item img,
+  .student-success-image img,
+  .campaign-image img,
+  .evangelism-need-image img,
+  .founder-image img,
+  .image-hover-card img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .compassion-project-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .compassion-project-card div,
+  .contact-info-card,
+  .contact-form,
+  .indigenous-card,
+  .testimony-card,
+  .current-need-card {
+    padding: 24px !important;
+  }
+
+  footer {
+    padding: 45px 20px;
+    margin-top: 40px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .hero h1,
+  .about-hero h1,
+  .projects-hero h1,
+  .church-hero h1,
+  .evangelism-hero h1,
+  .bible-hero h1,
+  .compassion-hero h1,
+  .school-hero h1,
+  .contact-hero h1,
+  .gallery-hero h1 {
+    font-size: 1.9rem !important;
+  }
+
+  p,
+  li {
+    font-size: 16px !important;
+  }
+
+  .card,
+  .project-hub-card,
+  .ministry-item,
+  .detail-card,
+  .need-list,
+  .school-need-card,
+  .contact-info-card,
+  .contact-form {
+    padding: 22px !important;
+  }
+}
