@@ -1114,7 +1114,7 @@ height:auto;
 .church-hero {
   background:
     linear-gradient(rgba(122,0,0,.78), rgba(122,0,0,.78)),
-    url('images/church-planting-hero.png');
+    url('images/church-planting-hero.webp');
   background-size: cover;
   background-position: center top;
   color: white;
@@ -1376,7 +1376,7 @@ height:auto;
 .scripture-section {
   background:
     linear-gradient(rgba(122,0,0,.88), rgba(122,0,0,.88)),
-    url('images/church-planting-hero.png');
+    url('images/church-planting-hero.webp');
   background-size: cover;
   background-position: center;
   color: white;
