@@ -305,7 +305,7 @@ font-size:17px;
 .about-hero{
  background:
  linear-gradient(rgba(122,0,0,.78),rgba(122,0,0,.78)),
- url('images/homepage background.jpg');
+ url('images/about\ background.JPG');
  background-size:cover;
  background-position:center;
  color:white;
@@ -1114,7 +1114,7 @@ height:auto;
 .church-hero {
   background:
     linear-gradient(rgba(122,0,0,.78), rgba(122,0,0,.78)),
-    url('images/church-planting-hero.jpg');
+    url('images/church-planting-hero.JPG');
   background-size: cover;
   background-position: center top;
   color: white;
@@ -1526,7 +1526,7 @@ height:auto;
 .evangelism-hero {
   background:
     linear-gradient(rgba(122, 0, 0, 0.666), rgba(122,0,0,.666)),
-    url('images/evangelism-hero.jpg');
+    url('images/evangelism-hero.JPG');
   background-size: cover;
   background-position: center bottom 20%;
   color: white;
@@ -1736,7 +1736,7 @@ height:auto;
 .bible-hero {
   background:
     linear-gradient(rgba(122,0,0,.78), rgba(122,0,0,.78)),
-    url('images/bible-hero.jpg');
+    url('images/bible-hero.JPG');
   background-size: cover;
   background-position: center 20%;
   color: white;
