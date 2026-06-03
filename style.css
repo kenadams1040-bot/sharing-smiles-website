@@ -305,7 +305,7 @@ font-size:17px;
 .about-hero{
  background:
  linear-gradient(rgba(122,0,0,.78),rgba(122,0,0,.78)),
- url('images/about background.JPG');
+ url('images/about background.webp');
  background-size:cover;
  background-position:center;
  color:white;
@@ -2558,7 +2558,7 @@ height:auto;
 .vocational-hero {
   background:
     linear-gradient(rgba(122,0,0,.78), rgba(122,0,0,.78)),
-    url('images/vocational-hero.jpg');
+    url('images/vocational-hero.webp');
   background-size: cover;
   background-position: center 25%;
   color: white;
