@@ -1526,7 +1526,7 @@ height:auto;
 .evangelism-hero {
   background:
     linear-gradient(rgba(122, 0, 0, 0.666), rgba(122,0,0,.666)),
-    url('images/evangelism-hero.webp');
+    url('images/evangelism-hero.png');
   background-size: cover;
   background-position: center bottom 20%;
   color: white;
@@ -1663,7 +1663,7 @@ height:auto;
 .evangelism-scripture {
   background:
     linear-gradient(rgba(122,0,0,.88), rgba(122,0,0,.88)),
-    url('images/evangelism-hero.webp');
+    url('images/evangelism-hero.png');
   background-size: cover;
   background-position: center;
   color: white;
@@ -2123,7 +2123,7 @@ height:auto;
 .school-hero {
   background:
     linear-gradient(rgba(122,0,0,.666), rgba(122,0,0,.666)),
-    url('images/school-hero.webp');
+    url('images/school-hero.png');
   background-size: cover;
   background-position: center 25%;
   color: white;
@@ -2296,7 +2296,7 @@ height:auto;
 .school-scripture {
   background:
     linear-gradient(rgba(122,0,0,.88), rgba(122,0,0,.88)),
-    url('images/school-hero.webp');
+    url('images/school-hero.png');
   background-size: cover;
   background-position: center;
   color: white;
@@ -2374,7 +2374,7 @@ height:auto;
 .house-hero {
   background:
     linear-gradient(rgba(122,0,0,.78), rgba(122,0,0,.78)),
-    url('images/house-hero.webp');
+    url('images/house-hero.png');
   background-size: cover;
   background-position: center 25%;
   color: white;
@@ -2803,7 +2803,7 @@ height:auto;
 .medical-water-hero {
   background:
     linear-gradient(rgba(122,0,0,.78), rgba(122,0,0,.78)),
-    url('images/medical-water-hero.webp');
+    url('images/medical-water-hero.png');
   background-size: cover;
   background-position: center 25%;
   color: white;
@@ -2999,7 +2999,7 @@ height:auto;
 .relief-hero {
   background:
     linear-gradient(rgba(122,0,0,.78), rgba(122,0,0,.78)),
-    url('images/relief-hero.webp');
+    url('images/relief-hero.png');
   background-size: cover;
   background-position: center 25%;
   color: white;
